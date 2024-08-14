@@ -1,6 +1,6 @@
 {
   "name": "express-like-next-api-handler",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "A Express JS like api handler with middleware support for next js",
   "main": "index.js",
   "types": "./src/types/express-like-next-api-handler.d.ts",
@@ -14,6 +14,10 @@
     "next-api-handler"
   ],
   "author": "Mubashir Ali Kalhoro",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mubashiralikalhoro/express-like-next-api-handler.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "next": "^14.2.5"
