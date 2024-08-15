@@ -3,7 +3,7 @@ import { NextApiRequest, NextApiResponse } from "next";
 type Middleware = (
   req: NextApiRequest,
   res: NextApiResponse
-) => void | Promise<void> | boolean | Promise<boolean>;
+) => void | Promise<void> | boolean | Promise<boolean> | Promise<false | undefined>;
 
 type RequestHandler = (req: NextApiRequest, res: NextApiResponse) => void | Promise<void>;
 
